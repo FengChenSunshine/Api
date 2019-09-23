@@ -118,6 +118,6 @@ public abstract class BaseCallback<T> extends JsonCallback<T> {
         }
     }
 
-    abstract void onError(@NonNull ApiException exception);
+    public abstract void onError(@NonNull ApiException exception);
 
 }
