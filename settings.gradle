@@ -1,0 +1,2 @@
+include ':app', ':library_api'
+rootProject.name='Api'
